@@ -73,7 +73,7 @@ function kimochi_post_demo() {
 		$post['post_type']     = 'post';
 		$post['post_title'] = 'Mẫu nhà biệt thự ' . $faker->firstName . ' ' . $faker->lastName . ' ở ' . $faker->city;
 		$post['post_content'] = $faker->paragraphs(50, true);
-		$imageUrl = 'http://localhost/wp-demo/p4/' . $image;
+		$imageUrl = 'http://localhost/wolfress/demo/' . $image;
 
 		kimochi_post( $post, $imageUrl );
 	}
