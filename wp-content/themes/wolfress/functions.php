@@ -166,4 +166,4 @@ if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
 
-require 'pluggable/lazyload/lazyload.php';
+//require 'pluggable/lazyload/lazyload.php';
